@@ -1,0 +1,175 @@
+.fejléc{
+    text-align: center;
+}
+
+body {
+    background-color:aqua;
+  }
+  
+  #toast-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    z-index: 9999;
+}
+
+#toast {
+    background-color:rgb(81, 81, 254);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#gomb{
+  margin-left: -45%;
+    margin-block: 5%;
+    margin-top: 48%;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+#close-toast {
+    cursor: pointer;
+    margin-right: 27%;
+    font-size: 35px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#close-toast:hover {
+    color: red;
+}
+
+#toast img {
+    margin-right: 10px;
+}
+  .flip-card {
+    text-align: center;
+    background-color: transparent;
+    width: 290px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 120%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 60px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: rgb(12, 12, 12);
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+.cim{
+    text-align: center;
+    margin: auto;
+    font-family: 'Confortaa', cursive;
+    background-color:blue;
+    border: 5px;
+    width: 100%;
+    height: 70px;
+    color: aliceblue;
+  }
+  
+.cim2{
+  font-family:'Comfortaa',cursive;;
+  color:rgb(255, 255, 255)
+}
+
+.cim3{
+    margin-bottom: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Confortaa', cursive;
+    background-color:blue;
+    width: 100%;
+    height: 70px;
+    color: aliceblue;
+    float: left;
+
+}
+
+  p{
+    font-family:'Comfortaa',cursive;;
+  }
+
+  h2{
+    font-family: 'Confortaa', cursive;
+    background-color:blue;
+    border: 5px;
+    width: 290px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    text-shadow:#6dc4d3,
+  }
+  
+  button{
+    margin-top:1px;
+    background-color:white;
+  }
+  
+  h1{
+    text-align: center;
+    margin: auto;
+    font-family: 'Confortaa', cursive;
+    background-color:blue;
+    color: aliceblue;
+  }
+  
+  div{
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 200px;
+  }
+  
+  .nvm{
+    text-align: center;
+  }
+
+.elerhetoseg{
+  margin-top: -3%;
+  margin-right: 60%;
+}
+
+.datum{
+  text-align: center;
+}
